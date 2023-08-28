@@ -282,8 +282,8 @@ for line in f:
             avoid_names.append(name_strnt)
         else:
             other_names.append(name_strnt)
-
 f.close()
+
 suitable_numbers_string=", ".join(map(str,suitable_name_numbers[day_number][sum_number]))
 avoid_numbers_string=", ".join(map(str,avoid_name_numbers[day_number][sum_number]))
 print("\nThe lucky numbers="+suitable_numbers_string)
